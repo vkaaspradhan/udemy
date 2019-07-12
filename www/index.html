@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title>Blank App</title>
+    <link rel="stylesheet" href="css/onsenui.css" />
+    <link rel="stylesheet" href="css/old-onsen-css-components.min.css" />
+  </head>
+  <body>
+    <ons-page>
+      <ons-toolbar>
+        <div class="center">My ons Page</div>
+      </ons-toolbar>
+      <div style="text-align: center;">
+        <p>This is page one</p>
+        <p>
+          <ons-input
+            modifier="underbar"
+            placeholder="Enter name"
+            float
+            id="myname"
+          >
+          </ons-input>
+        </p>
+
+        <p><ons-button onlcick="sayHello()">Click me</ons-button></p>
+      </div>
+    </ons-page>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
